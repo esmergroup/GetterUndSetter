@@ -1,0 +1,13 @@
+public class Runner {
+	
+	public static void main(String[] args) {
+		
+		Player verbinden = new Player();
+		verbinden.setName("Muhammet Esmer");
+		System.out.println("Der Name lautet: "+verbinden.getName());
+		
+		verbinden.setItem("25");
+		System.out.println("Herr "+verbinden.getName()+" ist "+verbinden.getItem()+" Jahre Alt");
+		
+	}
+}
